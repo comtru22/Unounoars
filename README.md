@@ -1,26 +1,42 @@
-#!/bin/bash
+# PakObbMod
+_ThePAK is a tool created to modify the PUBG Mobile PAK file. This tool is still in the process of being developed and unstable, however, this tool can extract pak files and the results can be read by a text editor._
 
-# Coloring
-NOCOLOR='\033[0m'
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-ORANGE='\033[0;33m'
-BLUE='\033[0;34m'
-PURPLE='\033[0;35m'
-CYAN='\033[0;36m'
-LIGHTGRAY='\033[0;37m'
-DARKGRAY='\033[1;30m'
-LIGHTRED='\033[1;31m'
-LIGHTGREEN='\033[1;32m'
-YELLOW='\033[1;33m'
-LIGHTBLUE='\033[1;34m'
-LIGHTPURPLE='\033[1;35m'
-LIGHTCYAN='\033[1;36m'
-WHITE='\033[1;37m'
+## Installing
+1. Install Termux from PlayStore,
+2. Open the Termux App and wait for the installation process,
+3. Enter This Command:
+```
+termux-setup-storage
+pkg update
+pkg upgrade
+pkg install git
+```
+4. Clone this repository
+```
+git clone https://github.com/UnoModsOfficiaL/PakObbMod
+```
+5. Open ThePAK directory and run setup.
+```
+cd ThePAK
+chmod +x setup
+bash setup
+```
+6. Done.
 
-# Banner
-clear
-echo -e "${LIGHTRED}🇵 🇦 🇰 🇴 🇧 🇧 🇲 🇴 🇩 ${NOCOLOR}"
-echo -e 
-echo -e "          ${PURPLE}by Unounoars${PURPLE}"
-echo -e "-----------------------"
+## Unpacking
+1. Run `bash thepak`
+2. Select option 1
+3. Select your pak file
+4. And the result will be like this
+![Result](/screenshot/complete_extraction.jpg)
+
+## Repacking
+1. Run `bash thepak`
+2. Select option 2
+3. Select your pak file
+4. And the result will be like this
+![Result](/screenshot/complete_repacking.jpg)
+5. Before and After Repacking
+![Result](/screenshot/beforeafter_repacking.jpg)
+
+Join myChannel Telegram = https://t.me/UnoModsOfficiaL
